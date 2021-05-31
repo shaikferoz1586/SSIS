@@ -1,0 +1,6 @@
+Step1: Truncate current table and load full data from source to current
+Step2: Current-Previous
+Step3: Truncate CDC table and load Current-Previous to CDC table
+Step4: Merge CDC table with Destination and sync the data
+Step5: Truncate Previous table and load current data to previous
+Step6: Repeat step1 to step5
